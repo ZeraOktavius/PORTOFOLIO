@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dyoz. | Portofolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">Dyoz<span>.</span></a>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">History</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <div class="nav__toggle" id="navToggle" aria-label="Buka menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO / HOME SECTION ===================== -->
+    <section class="hero" id="home">
+      <div class="container hero__wrapper">
+
+        <div class="portfolio-badge reveal">
+          <div class="badge-border"></div>
+          <span class="badge-text">PORTOFOLIO</span>
+        </div>
+
+        <h1 class="hero__title reveal">
+          Membangun Pengalaman Digital yang <span class="text-gradient">Kreatif & Terstruktur.</span>
+        </h1>
+        
+        <p class="hero__desc reveal">
+          Selamat datang di portofolio pribadi saya. Jelajahi riwayat pendidikan, karya, dan ketertarikan saya di dunia teknologi informasi.
+        </p>
+
+        <!-- Tombol Aksi (Tengah) -->
+        <div class="hero__actions reveal">
+          <button class="btn btn--primary" data-scroll="#about">
+            Tentang Saya <i class="fa-solid fa-arrow-down-long" style="margin-left: 8px;"></i>
+          </button>
+        </div>
+
+        <div class="scroll-indicator" data-scroll="#about">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <span>Scroll ke bawah</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ME SECTION ===================== -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <span class="section-label section-label--center reveal">About</span>
+
+        <div class="about__content">
+
+          <div class="about__image reveal">
+            <img src="profile.jpeg" alt="Foto profil">
+          </div>
+
+          <div class="about__text reveal">
+            <h2 class="section-title">Zera Oktavius</h2>
+            <p>
+              Saya adalah mahasiswa Teknologi Informasi yang memiliki ketertarikan kuat pada pengembangan perangkat lunak, khususnya perancangan antarmuka web dan arsitektur basis data relasional. Berbekal pemahaman praktis mengenai struktur HTML/CSS serta optimasi kueri SQL, saya terbiasa membangun sistem yang tidak hanya memiliki tampilan rapi dan responsif, tetapi juga didukung oleh alur pengelolaan data yang efisien.
+            </p>
+            <p>
+              Selain keterampilan teknis dalam pemrograman, saya memiliki pendekatan kerja yang analitis dalam memahami masalah logika serta mengevaluasi data. Saya selalu antusias untuk mempelajari teknologi baru, beradaptasi dengan lingkungan kerja yang dinamis, dan siap berkontribusi dalam proyek pengembangan aplikasi maupun peluang magang profesional.
+            </p>
+
+            <div class="hero__stats about__stats">
+              <div class="stat-card">
+                <div class="stat-card__icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stat-card__info">
+                  <h3>HTML</h3>
+                  <p>HyperText Markup Language</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-card__icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stat-card__info">
+                  <h3>CSS</h3>
+                  <p>Cascading Style Sheets</p>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div class="stat-card__icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="stat-card__info">
+                  <h3>JS</h3>
+                  <p>JavaScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RIWAYAT PENDIDIKAN SECTION ===================== -->
+    <section class="skills education" id="skills">
+      <div class="container">
+
+        <span class="section-label section-label--center reveal">Education</span>
+        <h2 class="section-title section-title--center reveal">Riwayat Pendidikan</h2>
+
+        <div class="education__list reveal">
+          <div class="edu-card">
+            <div class="edu-card__icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="edu-card__info">
+              <span class="edu-card__level">Sekolah Dasar</span>
+              <h4 class="edu-card__name">SDN 1 Dukuhdempok Wuluhan</h4>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card__icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="edu-card__info">
+              <span class="edu-card__level">Sekolah Menengah Pertama</span>
+              <h4 class="edu-card__name">SMP Muhammadiyah 6 Wuluhan</h4>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card__icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="edu-card__info">
+              <span class="edu-card__level">Sekolah Menengah Atas</span>
+              <h4 class="edu-card__name">SMAN Balung</h4>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-card__icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="edu-card__info">
+              <span class="edu-card__level">Perguruan Tinggi (Saat ini)</span>
+              <h4 class="edu-card__name">Fakultas Ilmu Komputer - Universitas Jember</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER / CONTACT ===================== -->
+  <footer class="footer" id="contact">
+    <div class="container footer__contact-container">
+
+      <span class="section-label section-label--center reveal">Hubungi Saya</span>
+      <h2 class="section-title section-title--center reveal">Mari Terhubung</h2>
+      <p class="footer__contact-desc reveal">
+        Punya pertanyaan atau ingin berdiskusi? Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.
+      </p>
+
+      <div class="contact-cards reveal">
+        <a href="https://wa.me/6285179665739" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card__icon">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="contact-card__info">
+            <span class="contact-card__label">WHATSAPP</span>
+            <h4 class="contact-card__val">+62 851-7966-5739</h4>
+          </div>
+        </a>
+
+        <a href="mailto:zeraoktavius@gmail.com" class="contact-card">
+          <div class="contact-card__icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-card__info">
+            <span class="contact-card__label">EMAIL</span>
+            <h4 class="contact-card__val">zeraoktavius@gmail.com</h4>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-card__info">
+            <span class="contact-card__label">LOKASI</span>
+            <h4 class="contact-card__val">Jember, Jawa Timur</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> Dyoz. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING BUTTON ===================== -->
+  <button class="floating-btn" id="floatingBtn" data-scroll="#home" aria-label="Kembali ke atas">
+    <span>DYOZ</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
